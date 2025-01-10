@@ -1,0 +1,21 @@
+{
+  "name": "@ns/design-system",
+  "version": "0.0.1",
+  "description": "design tokens",
+  "type": "module",
+  "scripts": {
+    "build": "node ./src/style-dictionary.config.js"
+  },
+  "keywords": [
+    "design",
+    "tokens",
+    "figma",
+    "desing system"
+  ],
+  "author": "Navdeep Singh",
+  "license": "ISC",
+  "dependencies": {
+    "prettier": "^3.4.2",
+    "style-dictionary": "^4.3.0"
+  }
+}
